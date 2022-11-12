@@ -6,30 +6,30 @@ const navBar = {
 // Main Body SECTION
 const mainBody = {
   gradientColors: "#4484ce, #1ad7c0, #ff9b11, #9b59b6, #ff7f7f, #ecf0f1",
-  firstName: "Hashir",
+  firstName: "管梓萌",
   middleName: "",
-  lastName: "Shoaib",
-  message: " Passionate about changing the world with technology. ",
+  lastName: "",
+  message: " Zennie Guan ",
   icons: [
     {
-      image: "fa-github",
-      url: "https://github.com/hashirshoaeb",
+      image: "fa fa-heart",
+      url: "",
     },
     {
-      image: "fa-facebook",
-      url: "https://www.facebook.com/hashirshoaeb",
+      image: "fa-weixin",
+      url: "",
+    },
+    {
+      image: "fa-qq",
+      url: "",
     },
     {
       image: "fa-instagram",
-      url: "https://www.instagram.com/hashirshoaeb/",
+      url: "",
     },
     {
-      image: "fa-linkedin",
-      url: "https://www.linkedin.com/in/hashirshoaeb/",
-    },
-    {
-      image: "fa-twitter",
-      url: "https://www.twitter.com/hashirshoaeb/",
+      image: "fas fa-heart",
+      url: "",
     },
   ],
 };
@@ -51,11 +51,11 @@ const mainBody = {
 const about = {
   show: true,
   heading: "About Me",
-  imageLink: require("../editable-stuff/hashirshoaeb.png"),
+  imageLink: require("../editable-stuff/zennie.png"),
   imageSize: 375,
   message:
-    "My name is Hashir Shoaib. I’m a graduate of 2020 from National University of Sciences and Technology at Islamabad with a degree in Computer Engineering. I'm most passionate about giving back to the community, and my goal is to pursue this passion within the field of software engineering. In my free time I like working on open source projects.",
-  resume: "https://docs.google.com/document/d/13_PWdhThMr6roxb-UFiJj4YAFOj8e_bv3Vx9UHQdyBQ/edit?usp=sharing",
+    "about me, about me, about me, about me, about me, about me, about me,about me,about me,about me,about me,about me,about me,about me,about me,about me,about me,about me,about me,about me,about me,about me,about me,about me,about me,about me,about me,about me,about me,",
+    resume: require("../editable-stuff/resume.pdf"),
 };
 
 // PROJECTS SECTION
@@ -64,7 +64,7 @@ const about = {
 // If you want to display specfic projects, add the repository names,
 //      i.e ["repository-1", "repo-2"]
 const repos = {
-  show: true,
+  show: false,
   heading: "Recent Projects",
   gitHubUsername: "hashirshoaeb", //i.e."johnDoe12Gh"
   reposLength: 4,
@@ -100,34 +100,34 @@ const skills = {
   show: true,
   heading: "Skills",
   hardSkills: [
-    { name: "Python", value: 90 },
-    { name: "SQL", value: 75 },
-    { name: "Data Structures", value: 85 },
-    { name: "C/C++", value: 65 },
-    { name: "JavaScript", value: 90 },
-    { name: "React", value: 65 },
-    { name: "HTML/CSS", value: 55 },
-    { name: "C#", value: 80 },
+    { name: "有机化学", value: 90 },
+    { name: "无机化学", value: 75 },
+    { name: "普通生物", value: 85 },
+    { name: "生物化学", value: 65 },
+    { name: "微生物", value: 90 },
+    { name: "遗传学", value: 95 },
+    { name: "高等数学", value: 75 },
+    { name: "不想上学", value: 50 },
   ],
   softSkills: [
-    { name: "Goal-Oriented", value: 80 },
-    { name: "Collaboration", value: 90 },
-    { name: "Positivity", value: 75 },
-    { name: "Adaptability", value: 85 },
-    { name: "Problem Solving", value: 75 },
-    { name: "Empathy", value: 90 },
-    { name: "Organization", value: 70 },
-    { name: "Creativity", value: 90 },
+    { name: "Orgnaic Chemistry", value: 90 },
+    { name: "Inorganic Chemistry", value: 75 },
+    { name: "General Biology", value: 85 },
+    { name: "Biochemistry", value: 65 },
+    { name: "Microbiology", value: 90 },
+    { name: "Genetics", value: 95 },
+    { name: "Advanced Mathematics", value: 75 },
+    { name: "Dropping-outistry", value: 50 },
   ],
 };
 
 // GET IN TOUCH SECTION
 const getInTouch = {
   show: true,
-  heading: "Get In Touch",
+  heading: "Contact Me",
   message:
-    "I'm currently looking for full-time Software Engineering or Machine Learning opportunities! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
-  email: "hashirshoaeb@gmail.com",
+    "If you'd like know more about me or just wanna say hi, please add my WeChat: Dn_guan0_0zm  or send me an email: ",
+  email: " 3257903761@qq.com",
 };
 
 const experiences = {
