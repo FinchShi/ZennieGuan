@@ -1,12 +1,13 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <h1 align="center">Developer's Portfolio ✨</h1>
+  <h1 align="center">Personal Website ✨</h1>
 
   <p align="center">
-    A personal website, reference are below
-    <a href="https://github.com/FinchShi/zennieguan.github.io.git">https://github.com/FinchShi/zennieguan.github.io.git</a>
+    Link to the website
+    <a href="https://FinchShi.github.io/ZennieGuan">https://FinchShi.github.io/ZennieGuan</a>
     <br />
+    References are below
     <br />
   </p>
 </p>
